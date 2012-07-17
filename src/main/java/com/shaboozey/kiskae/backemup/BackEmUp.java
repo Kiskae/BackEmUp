@@ -28,6 +28,12 @@ public class BackEmUp extends JavaPlugin {
     public BackEmUp() {
         task = new BackupTask(this);
     }
+    
+    @Override
+    public void onDisable() {
+        task.cancel();
+        timer.purge();
+    }
 
     @Override
     public void onEnable() {
