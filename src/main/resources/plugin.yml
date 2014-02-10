@@ -1,8 +1,7 @@
-author: Kiskae
-database: false
-generator: http://dinnerbone.com/minecraft/tools/pluginator/
-main: com.shaboozey.kiskae.backemup.BackEmUp
 name: BackEmUp
-startup: postworld
-version: '1.0'
-prefix: 'BEU'
+version: ${project.version}
+author: Kiskae
+load: POSTWORLD
+prefix: BEU
+
+main: com.shaboozey.backemup.BackEmUp

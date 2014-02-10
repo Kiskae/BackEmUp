@@ -19,6 +19,9 @@ pom.xml.releaseBackup
 pom.xml.next
 release.properties
 
+#Maven Shade
+dependency-reduced-pom.xml
+
 ## WINDOWS
 # Windows image file caches
 Thumbs.db
